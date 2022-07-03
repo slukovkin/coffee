@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+html, body {
+    font-family: 'Oswald';
+    font-style: normal;
+    color: #000000;
+    box-sizing: border-box;
+    width: 1440px;
+    font-family: 'Oswald';
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 110px;    
+    background: #FFFFFF;
+    position: relative;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 1;
+}
+ul li {
+    display: inline;
+    padding-right: 10px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #f88c06;
+}
+.header_logo {
+    padding-left: 80px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.header_menu {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-right: 80px;
+}
+.menu_items {
+}
+.menu_item {
+
+}
+.content {
+    position: absolute;
+    top: 110px;
+    width: auto;
+    height: 100%;
+}
+.content__title {
+    position: absolute;
+    left: 450px;
+    top: 270px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 89px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.content_image img {
+    width: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    top: 665px;
+}
+.story, .blog {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 100%;
+    height: 622px;
+    margin-top: 110px;
+    /* border: 1px solid rgb(25, 5, 140); */
+}
+.story_title, .blog_title, .footer_title {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    min-width: 100%;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 50px 0;
+}
+.story_content, .blog_content {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.story_image {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+}
+.story_text {
+    position: absolute;
+    width: 500px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000; 
+    text-align: center;
+    margin-left: 650px;
+}
+.blog {
+    background: #EFEFEF;
+}
+.blog_content{
+
+}
+.blog_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 365px;
+    height: 474px;
+    margin-top: 50px;
+    padding-left: 40px;
+}
+.card_title {
+    position: absolute;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+.card_image {
+    position: absolute;
+    margin-top: 50px;
+    width: 325px;
+    height: 216px;
+}
+.card_text {
+    margin-top: 300px;
+    width: 325px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+}
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 337px;
+    left: 0px;
+    top: 2076px;
+    background: #817070;
+    margin-top: 50px;
+}
+.footer_title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 300px;
+    height: 55px;
+    left: 571px;
+    top: 130px;
+    background: #817070;
+    border: 3px solid #FFFFFF;
+}
+input::placeholder {
+    background: #817070;
+    color: #fff;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+.footer_button input {
+    box-sizing: border-box; 
+    position: absolute;
+    width: 129px;
+    height: 55px;
+    left: 655px;
+    top: 220px;
+    /* background: #FFFFFF;
+    border: 3px solid rgba(255, 255, 255, 1) */
+}
+.button_text {
+    position: absolute;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    top: 10px;
+    left: 25%;
+    text-transform: uppercase;
+    color: #817070;
+    border: none;
+    background: #FFFFFF;
+}
