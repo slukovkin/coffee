@@ -27,17 +27,21 @@ html, body {
     margin: 0 auto;
     position: fixed;
     z-index: 1;
+    
 }
 ul li {
     display: inline;
     padding-right: 10px;
     list-style: none;
+    transition: 10s;
 }
 
 a {
     text-decoration: none;
     color: #000;
+
 }
+
 .header_logo {
     padding-left: 80px;
     font-weight: 500;
@@ -60,10 +64,12 @@ a {
 
 }
 .menu_item:hover{
-
+    
+    
 }
 a:hover{
     color: #d78010;
+
 }
 .content {
     position: absolute;
@@ -93,7 +99,6 @@ a:hover{
     max-width: 1200px;
     height: 100%;
     margin: 0 auto;
-    /* border: 1px solid red; */
     top: 665px;
 }
 .story, .blog {
@@ -123,7 +128,7 @@ a:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    position: relative; 
 }
 .story_image {
     position: absolute;
