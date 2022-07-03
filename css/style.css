@@ -60,7 +60,10 @@ a {
 
 }
 .menu_item:hover{
-    text-decoration: underline;
+
+}
+a:hover{
+    color: #d78010;
 }
 .content {
     position: absolute;
@@ -234,4 +237,7 @@ input::placeholder {
     color: #817070;
     border: none;
     background: #FFFFFF;
+}
+.button_text:hover{
+    color: #d78010;
 }
