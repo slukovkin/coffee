@@ -33,7 +33,6 @@ ul li {
     display: inline;
     padding-right: 10px;
     list-style: none;
-    transition: 10s;
 }
 
 a {
