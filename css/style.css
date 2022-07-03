@@ -59,6 +59,9 @@ a {
 .menu_item {
 
 }
+.menu_item:hover{
+    text-decoration: underline;
+}
 .content {
     position: absolute;
     top: 110px;
